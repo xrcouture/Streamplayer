@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset=utf-8 />
+    <title>Your title</title>
+
+
+<!-- CSS  -->
+ <link href="https://vjs.zencdn.net/7.2.3/video-js.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+
+
+<!-- HTML -->
+<video id='hls-example'  class="video-js vjs-default-skin" width="400" height="600" style="width:100vw !important;  height: 100vh !important" controls>
+<source type="application/x-mpegURL" src="https://rakesh-testbucket.s3.ap-south-1.amazonaws.com/source/v_t6_1920x1080.m3u8">
+</video>
+
+
+<!-- JS code -->
+<!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
+<script src="https://vjs.zencdn.net/ie8/ie8-version/videojs-ie8.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/videojs-contrib-hls/5.14.1/videojs-contrib-hls.js"></script>
+<script src="https://vjs.zencdn.net/7.2.3/video.js"></script>
+
+<script>
+var player = videojs('hls-example');
+player.play();
+</script>
+</script>
+    <script src="https://dunggramer.github.io/disable-devtool/disable-devtool.min.js" defer></script>
+</body>
+
+</body>
