@@ -54,7 +54,7 @@ const App = () => {
         if (err.response) {
           if (err.response.data.msg === "Invalid") {
             setErr(<>
-              The Email address is not registered. Please click <a rel="noreferrer" className='text-primary' target={'_blank'} href='https://xrcouture.com'>here</a> to register.
+              The email address is not registered. Please click <a rel="noreferrer" className='text-primary' target={'_blank'} href='https://xrcouture.com'>here</a> to register.
             </>)
           } else if (err.response.data.msg === "Expired") {
             setErr("The link is expired for this email address. Please contact us at hello@xrcouture.com")
