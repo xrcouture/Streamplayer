@@ -91,18 +91,19 @@ const App = () => {
               </form>
 
             </div>
+            
+            <div className='output-cont d-flex align-items-center'>
+
+              {isSubmitting ?
+                <div className="spinner-border text-light" role="status">
+                  <span className="sr-only"></span>
+                </div> :
+                <p className='text-white mt-2'>{err}</p>}
+
+            </div>
 
           </div>
 
-          <div className='output-cont d-flex align-items-center'>
-
-            {isSubmitting ?
-              <div class="spinner-border text-light" role="status">
-                <span className="sr-only"></span>
-              </div> :
-              <p className='text-white mt-2'>{err}</p>}
-
-          </div>
         </> :
 
         <ReactHlsPlayer

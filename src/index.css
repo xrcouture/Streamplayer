@@ -46,15 +46,15 @@ code {
 }
 
 .input-cont {
-  width: 60vw;
-  padding: 3em 3em 1.5em 3rem;
+  width: fit-content;
+  padding: 3em 3em 1.5em 3em;
   margin: auto;
 }
 
 .output-cont {
-  width: 60vw;
   margin: auto;
-  padding: 0em 3em;
+  padding: 2em 0em;
+  text-align: center;
 }
 
 .player-header {
@@ -83,7 +83,7 @@ code {
 .footer-subscribe-button {
   font-family: "Clash Display Bold";
   background: linear-gradient(180deg, #432BFF 0%, #6534FF 100%);
-  font-size: 1vw;
+  font-size: 1rem;
   padding: 0.8em 1em;
   color: white !important;
   border: 2px solid #6534FF;
@@ -113,7 +113,7 @@ button {
   border: none;
   color: #fff;
   font-family: Clash Display Light;
-  font-size: 1.1vw;
+  font-size: 1.1rem;
   margin-top: 0!important;
   width: 65%;
   outline: none;
